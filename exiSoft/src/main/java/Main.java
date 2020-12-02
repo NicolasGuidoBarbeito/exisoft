@@ -108,12 +108,12 @@ public class Main {
                 }
         }
         System.out.print("Local que tiene producto con precio mas alto con promoción:");
-        System.out.print(productoConPrecioMasAltoConPromocion.getComercio());
+        System.out.print(productoConPrecioMasAltoConPromocion.getComercio().getRazonSocial());
         System.out.print("Cantidad de locales con este precio:");
         System.out.print(contadorDeLocalesConPromocion);
 
         System.out.print("Local que tiene producto con precio mas alto sin promoción:");
-        System.out.print(productoConPrecioMasAltoSinPromocion.getComercio());
+        System.out.print(productoConPrecioMasAltoSinPromocion.getComercio().getRazonSocial());
         System.out.print("Cantidad de locales con este precio:");
         System.out.print(contadorDeLocalesSinPromocion);
     }
